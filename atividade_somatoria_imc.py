@@ -8,10 +8,10 @@ usuario_peso = float(input('digite o peso do usuario:'))
 usuario_altura = float(input('digite a altura do usuario:'))
 #O programa calcula o IMC:
 IMC = usuario_peso / (usuario_altura ** 2)
-IMC >= 30.0 
-print ("Cuidado com a Saúde")
-IMC < 30.0 
-print ( "Tudo ok")
+#IMC >= 30.0 
+#print ("Cuidado com a Saúde")
+#IMC < 30.0 
+#print ( "Tudo ok")
 
 if IMC <=  18.5 :
     print("Abaixo do peso")
